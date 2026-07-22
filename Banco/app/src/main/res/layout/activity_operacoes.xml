@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipoOperacao"
+        android:text="@string/tipo_da_operacao"
+        android:textSize="32sp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero_da_conta_origem"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numeroContaOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/digite_o_numero_da_conta"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelContaDestino"
+        android:text="@string/numero_da_conta_destino"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numeroContaDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/digite_o_numero_da_conta"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/digite_o_valor_a_ser"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/realizar_operacao"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

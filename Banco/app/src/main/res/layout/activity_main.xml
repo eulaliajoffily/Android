@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnContas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contas"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnTransferir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_transferir"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnDebitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_debitar"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnCreditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_creditar"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_pesquisar"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btnTransacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="@string/btn_transacoes"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btnClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clientes"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/total_no_banco"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/totalDinheiroBanco"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
