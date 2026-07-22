@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <string name="l_paren">(</string>
+    <string name="r_paren">)</string>
+    <string name="equals">=</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="add">+</string>
+    <string name="power">^</string>
+    <string name="clear"></string>
+    <string name="clear_btn">C</string>
+    <string name="dot">.</string>
+    <string name="error">operação inválida</string>
+</resources>
